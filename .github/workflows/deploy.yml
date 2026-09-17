@@ -25,6 +25,6 @@ jobs:
       - name: Deploy Bicep
         run: |
           az deployment group create \
-            --resource-group rg-demo \
+            --resource-group GitHubNikosTest \
             --template-file main.bicep \
             --parameters storageAccountName=stdemo12345644455
